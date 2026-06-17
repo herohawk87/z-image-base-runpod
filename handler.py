@@ -267,8 +267,8 @@ def handler(job):
     # 공통 설정
     prompt_text = job_input.get("prompt", "")
     seed = job_input.get("seed", 533303727624653)
-    steps = job_input.get("steps", 9)
-    cfg = job_input.get("cfg", 1.0)
+    steps = job_input.get("steps", 30)
+    cfg = job_input.get("cfg", 3.5)
     width = job_input.get("width", 1024)
     height = job_input.get("height", 1024)
     negative_prompt = job_input.get("negative_prompt", "")
